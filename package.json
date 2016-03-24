@@ -1,5 +1,5 @@
 {
-  "name": "generator-greencode",
+  "name": "generator-gc",
   "version": "3.0.3",
   "description": "Spring Boot + AngularJS in one handy generator",
   "files": [
@@ -16,16 +16,14 @@
     "Twitter Bootstrap"
   ],
   "homepage": "http://greencode.github.io/",
-  "bugs": "https://github.com/greencode/generator-greencode/issues",
+  "bugs": "https://github.com/aminbh111/generator-gc/issues",
   "author": {
-    "name": "Julien Dubois",
     "email": "",
-    "url": "https://github.com/jdubois"
   },
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/greencode/generator-greencode.git"
+    "url": "git://github.com/aminbh111/generator-gc.git"
   },
   "scripts": {
     "test": "mocha --reporter spec"
