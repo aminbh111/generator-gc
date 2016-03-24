@@ -549,8 +549,8 @@ module.exports = GreencodeClientGenerator.extend({
         writeImageFiles: function () {
             // Images
             this.copy(MAIN_SRC_DIR + 'content/images/development_ribbon.png', MAIN_SRC_DIR + 'content/images/development_ribbon.png');
-            this.copy(MAIN_SRC_DIR + 'content/images/hipster.png', MAIN_SRC_DIR + 'content/images/hipster.png');
-            this.copy(MAIN_SRC_DIR + 'content/images/hipster2x.png', MAIN_SRC_DIR + 'content/images/hipster2x.png');
+            this.copy(MAIN_SRC_DIR + 'content/images/gc.png', MAIN_SRC_DIR + 'content/images/gc.png');
+            this.copy(MAIN_SRC_DIR + 'content/images/gc.png', MAIN_SRC_DIR + 'content/images/gc.png');
 
         },
 
