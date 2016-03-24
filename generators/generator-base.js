@@ -1184,12 +1184,12 @@ Generator.prototype.formatAsApiModelProperty = function (text) {
 
 Generator.prototype.printGreencodeLogo = function () {
     this.log(' \n' +
-        chalk.green('        ██') + chalk.red('  ██    ██  ████████  ███████    ██████  ████████  ████████  ███████\n') +
-        chalk.green('        ██') + chalk.red('  ██    ██     ██     ██    ██  ██          ██     ██        ██    ██\n') +
-        chalk.green('        ██') + chalk.red('  ████████     ██     ███████    █████      ██     ██████    ███████\n') +
-        chalk.green('  ██    ██') + chalk.red('  ██    ██     ██     ██             ██     ██     ██        ██   ██\n') +
-        chalk.green('   ██████ ') + chalk.red('  ██    ██  ████████  ██        ██████      ██     ████████  ██    ██\n'));
-    this.log(chalk.white.bold('                            http://greencode.github.io\n'));
+        chalk.green(' █████    █████ \n')+
+        chalk.green('██       ██    █\n')+
+        chalk.green('██  ████ ██     \n')+
+        chalk.green('██    ██ ██    █\n')+
+        chalk.green(' ██████   █████ \n'));
+
     this.log(chalk.white('Welcome to the Greencode Generator ') + chalk.yellow('v' + packagejs.version));
     this.log(chalk.white('Application files will be generated in folder: ' + chalk.yellow(process.cwd())));
 };
