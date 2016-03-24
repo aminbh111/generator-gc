@@ -1,0 +1,19 @@
+{
+    "home": {
+        "title": "Welcome, Java Hipster!",
+        "subtitle": "This is your homepage",
+        "logged": {
+            "message": "You are logged in as user \"{{username}}\"."
+        },
+        "question": "If you have any question on Greencode:",
+        "link": {
+            "homepage": "Greencode homepage",
+            "stackoverflow": "Greencode on Stack Overflow",
+            "bugtracker": "Greencode bug tracker",
+            "chat": "Greencode public chat room",
+            "follow": "follow @java_hipster on Twitter"
+        },
+        "like": "If you like Greencode, don't forget to give us a star on",
+        "github": "GitHub"
+    }
+}

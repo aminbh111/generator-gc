@@ -1,0 +1,19 @@
+{
+    "home": {
+        "title": "Bun venit, Java Hipster!",
+        "subtitle": "Aceasta e pagina ta de start",
+        "logged": {
+            "message": "Ești înregistrat ca și \"{{username}}\"."
+        },
+        "question": "Dacă ai orice întrebări în legatură cu Greencode:",
+        "link": {
+            "homepage": "Pagina Greencode",
+            "stackoverflow": "Greencode pe Stack Overflow",
+            "bugtracker": "Greencode bug tracker",
+            "chat": "Camera de chat publică pentru Greencode",
+            "follow": "contactează @java_hipster pe Twitter"
+        },
+        "like": "Dacă iți place Greencode nu uita să ne dai o stea pe",
+        "github": "GitHub"
+    }
+}

@@ -1,0 +1,7 @@
+Description:
+    Creates a new Greencode server side application based on the selected options
+
+Example:
+    yo greencode:server
+
+    This will create a spring boot server side app

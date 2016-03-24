@@ -1,0 +1,19 @@
+{
+    "home": {
+        "title": "Benvingut, Java Hipster!",
+        "subtitle": "Aquesta és la pàgina principal",
+        "logged": {
+            "message": "S'ha connectat amb l'usuari \"{{username}}\"."
+        },
+        "question": "Si tens qualsevol pregunta sobre Greencode:",
+        "link": {
+            "homepage": "Pàgina preincipal de Greencode",
+            "stackoverflow": "Greencode a Stack Overflow",
+            "bugtracker": "Greencode seguiment d'incidencies",
+            "chat": "Greencode public chat room",
+            "follow": "Contacte @java_hipster a Twitter"
+        },
+        "like": "Si li agrada Greencode, no oblidi donar-nos una estrella",
+        "github": "GitHub"
+    }
+}

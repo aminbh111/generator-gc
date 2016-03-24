@@ -1,0 +1,16 @@
+Description:
+    This sub-generator is to be used by Greencode modules, so they can access the
+    main Greencode configuration and variables.
+
+Example:
+    This sub-generator is not meant to be used directly.
+
+You can compose this sub-generator from a Greencode module, which is itself a generator,
+using:
+
+var configuration = {'moduleName': 'my-own-generator'};
+
+templates: function() {
+    this.composeWith('greencode:modules', { options: {
+        configuration: configuration }});
+  }

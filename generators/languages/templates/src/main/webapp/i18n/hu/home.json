@@ -1,0 +1,19 @@
+{
+    "home": {
+        "title": "Üdvözöljük, Java Hipster!",
+        "subtitle": "Ez a nyitóképernyőd",
+        "logged": {
+            "message": "Ön \"{{username}}\"-ként lépett be."
+        },
+        "question": "Ha bármi kérdése van a Greencode-ről:",
+        "link": {
+            "homepage": "Greencode honlapja",
+            "stackoverflow": "Greencode a Stack Overflow-n",
+            "bugtracker": "Greencode hibakövető",
+            "chat": "Greencode public chat room",
+            "follow": "lépjen kapcsolatba @java_hipster -rel a Twitter-en"
+        },
+        "like": "Ha tetszik a Greencode, ne feledjen csillagot adni a",
+        "github": "GitHub-on"
+    }
+}

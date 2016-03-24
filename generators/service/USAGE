@@ -1,0 +1,8 @@
+Description:
+    Creates a new Greencode service: this is a simple transactional Spring service bean.
+
+Example:
+    yo greencode:service Foo
+
+    This will create:
+        src/main/java/package/service/FooService.java

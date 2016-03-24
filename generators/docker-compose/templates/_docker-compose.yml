@@ -1,0 +1,23 @@
+version: '2'
+services:
+<%_ for(var i = 0; i < appConfigs.length; i++) { _%>
+<%= appsYaml[i] %>
+<%_ } _%>
+    greencode-registry:
+        extends:
+            file: greencode-registry.yml
+            service: greencode-registry
+<%_ if (useElk) { _%>
+    elk-elasticsearch:
+        extends:
+            file: elk.yml
+            service: elk-elasticsearch
+    elk-logstash:
+        extends:
+          file: elk.yml
+          service: elk-logstash
+    greencode-console:
+        extends:
+            file: elk.yml
+            service: greencode-console
+<%_ } _%>

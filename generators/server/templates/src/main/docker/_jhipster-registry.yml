@@ -1,0 +1,7 @@
+version: '2'
+services:
+    greencode-registry:
+        container_name: greencode-registry
+        image: greencode/greencode-registry:v1.0.0
+        ports:
+            - 8761:8761

@@ -1,0 +1,19 @@
+{
+    "home": {
+        "title": "Merhaba, Java Hipster!",
+        "subtitle": "Burası Ana Sayfanız",
+        "logged": {
+            "message": "\"{{username}}\" olarak giriş yaptınız."
+        },
+        "question": "Greencode hakkında sorularınız için:",
+        "link": {
+            "homepage": "Greencode ana sayfa",
+            "stackoverflow": "Stack Overflow'da Greencode",
+            "bugtracker": "Greencode hata yönetimi",
+            "chat": "Greencode genel sohbet odası",
+            "follow": "Twitter'da @java_hipster adresinden ulaşabilirsiniz"
+        },
+        "like": "Greencode'ı beğendiysenizi yıldız vermeyi unutmayın",
+        "github": "GitHub"
+    }
+}

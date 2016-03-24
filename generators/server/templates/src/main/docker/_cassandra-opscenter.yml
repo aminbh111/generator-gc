@@ -1,0 +1,32 @@
+version: '2'
+services:
+    greencode-opscenter:
+        container_name: greencode-opscenter
+        build:
+            context: opscenter/
+        ports:
+            - 8888:8888
+    <%= baseName.toLowerCase() %>-cassandra:
+        container_name: <%= baseName.toLowerCase() %>-cassandra
+        build:
+            context: .
+            dockerfile: cassandra/Cassandra-OpsCenter.Dockerfile
+        # volumes:
+        #     - ~/volumes/greencode/<%= baseName %>/cassandra/:/var/lib/cassandra/data
+        links:
+            - greencode-opscenter:opscenter
+        ports:
+            - 7000:7000
+            - 7001:7001
+            - 7199:7199
+            - 9042:9042
+            - 9160:9160
+    <%=baseName.toLowerCase()%>-cassandra-node:
+        build:
+            context: .
+            dockerfile: cassandra/Cassandra-OpsCenter.Dockerfile
+        links:
+            - <%= baseName.toLowerCase() %>-cassandra:seed
+            - greencode-opscenter:opscenter
+        environment:
+            - CASSANDRA_SEEDS=seed

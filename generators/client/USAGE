@@ -1,0 +1,7 @@
+Description:
+    Creates a new Greencode client side application based on the selected options
+
+Example:
+    yo greencode:client
+
+    This will create an AngularJS client app

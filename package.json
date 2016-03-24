@@ -1,0 +1,62 @@
+{
+  "name": "generator-greencode",
+  "version": "3.0.0",
+  "description": "Spring Boot + AngularJS in one handy generator",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "Java",
+    "Spring",
+    "Spring Security",
+    "JPA",
+    "Hibernate",
+    "AngularJS",
+    "Twitter Bootstrap"
+  ],
+  "homepage": "http://greencode.github.io/",
+  "bugs": "https://github.com/greencode/generator-greencode/issues",
+  "author": {
+    "name": "Julien Dubois",
+    "email": "",
+    "url": "https://github.com/jdubois"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/greencode/generator-greencode.git"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "dependencies": {
+    "chalk": "1.1.1",
+    "cheerio": "0.20.0",
+    "ejs": "2.4.1",
+    "glob": "7.0.3",
+    "html-wiring": "1.2.0",
+    "insight": "0.7.0",
+    "lodash": "4.6.1",
+    "mkdirp": "0.5.1",
+    "shelljs": "0.6.0",
+    "pluralize": "1.2.1",
+    "wordwrap": "1.0.0",
+    "yeoman-generator": "0.22.5",
+    "js-yaml": "3.5.5",
+    "yo": "1.7.0",
+    "semver": "5.1.0",
+    "jhipster-uml" : "1.6.1"
+  },
+  "devDependencies": {
+    "fs-extra": "0.26.7",
+    "mocha": "2.4.5",
+    "yeoman-assert": "2.1.1",
+    "yeoman-test": "1.1.0"
+  },
+  "engines": {
+    "node": ">=4.0.0",
+    "npm": ">=2.14.2"
+  },
+  "license": "Apache-2.0"
+}

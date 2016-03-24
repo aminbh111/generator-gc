@@ -1,0 +1,7 @@
+Description:
+    Creates a new Greencode application based on the selected options
+
+Example:
+    yo greencode
+
+    This will compose greencode:client, greencode:server and greencode:languages to scaffold a full application
